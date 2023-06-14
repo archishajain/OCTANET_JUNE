@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(17, 18, 16);
+    background-size: cover;
+    font-family: sans-serif;
+    background-image: url('BCK.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
+/* Rest of your CSS code */
+
+.logo img {
+    margin-right: 10px;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    background-color:#6F4E37;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.join a {
+    color: white;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    background: black;
+    border-radius: 7px;
+}
+
+.logo {
+    font-size: 3em;
+    letter-spacing: 2px;
+    font-family: caveat;
+    color: azure;
+}
+
+.contain {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    box-shadow: 3px 3px 10px rgb(12, 7, 7);
+    border-top: 5px solid rgb(7, 15, 15);
+    border-bottom: 5px solid rgb(18, 19, 19);
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    margin-left: 43%;
+    margin-top: 5%;
+    padding: 10px;
+}
+
+.TODO {
+    display: flex;
+    text-align: center;
+    justify-content:center;
+    padding: 10px;
+   
+   
+    width: 100%;
+    max-width: 540;
+    
+    
+}
+
+.TODO__value {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-family: 'quicksand', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    flex-grow: 1;
+    text-align: center;
+    justify-content: center;
+    color: rgb(232, 225, 225);
+}
+
+.TODO:has(.TODO__checkbox:checked) {
+    color: rgb(195, 195, 188);
+    background: rgb(32, 31, 31);
+    text-align: center;
+    justify-content: center;
+    text-decoration: line-through;
+    order: 1;
+}
+
+   .LIST h1 {
+    /*background: rgb(239, 222, 199);*/
+    text-align: center;
+    justify-content: left;
+    font-family: cursive;
+    max-width: 650px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    color: aliceblue;
+    background: rgb(118, 92, 73);
+    
+    
+}
+
+.search {
+    letter-spacing: 2px;
+    color: rgb(220, 213, 213);
+    display: flex;
+    font-size: 15px;
+    float: center;
+    margin: 7px;
+    font-style: italic;
+    
+    
+}
+.search-bar{
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    background: rgb(194, 188, 188);
+    border-radius: 60px;
+    padding: 10px 20px;
+}
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 5px 20px;
+    font-size: 15px;
+    
+}
+
+ 
+/*.body contain{
+    align-items: center;
+    justify-content: center;
+    
+}*/
